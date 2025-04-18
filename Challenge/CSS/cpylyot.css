@@ -1,0 +1,66 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
+}
+.cl1{
+    width: 15%;
+    border-right: 0.5px solid #000;
+    padding: 5px;
+    display: inline-block;
+    position: relative;
+}
+.cl3{
+    width: 25%;
+    display: inline-block;
+    border-left: 0.5px solid black;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 10px;
+}
+.cl1 h2{
+    font-weight: 500;
+    margin: 30px 30px;
+    padding: auto;
+}
+.cl1 ul{
+    list-style-type: none;
+    padding: 5px;
+    text-align: left;
+}
+.cl1 li{
+    padding: 5px;
+    width: 100px;
+}
+.cl1 a{
+    text-decoration: none;
+    color: gray;
+   
+}
+
+
+.cl1 button{
+    width: 180px;
+    height: 30px;
+    border-radius: 3%;
+    border: none;
+    background-color: white;
+    color: grey;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
+
+}
+.cl1 button:hover{
+    background-color: dodgerblue;
+    color: #000;
+}
+.cl1 button:active{
+    background-color:dodgerblue ;
+    color: #000;
+}

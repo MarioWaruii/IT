@@ -1,0 +1,308 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.head{
+    position: relative;
+    display: flex;
+    width: 99%;
+
+}
+.head img{
+    width: 25px;
+    height: 25px;
+}
+.head h2{
+    font-size: medium;
+    margin-left: 40px;
+}
+.list1 li{
+    display: inline;
+    list-style-type: none;
+}
+.list1{
+    position: absolute;
+    right: 35%;
+    top: 5px;
+}
+.list1 li{
+    padding: 0 10px;
+}
+.list1 a{
+    text-decoration: none;
+    color: black;
+}
+.list1 a:hover{
+    font-style: italic;
+}
+.btnu{
+    position: absolute;
+    right: 40px;
+    top: 15px;
+}
+.btnu button{
+    width: 120px;
+    height: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #fff;
+}
+#btn1{
+    border: 0.5px solid #000;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px;
+}
+#btn2{
+    border: none;
+    border-radius: 10px;
+    width: 80px;
+    padding: 5px;
+    background-color: blue;
+    color: #fff;
+    box-shadow: 2px 2px 5px blue ;
+}
+.Top{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+
+
+}
+.top1{
+    width: 60%;
+    margin-top: 35px;
+    position: relative;
+    left: 40px;
+}
+#btn3{
+    background-color: whitesmoke;
+    border: 0;
+    width: 180px;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 12px;
+}
+#Sales{
+    font-weight: 400;
+    font-size: 50px;
+}
+#growth{
+    margin-top: -20px;
+    font-size: 50px;
+}
+.top1 p{
+    text-align: left;
+    font-size: 15px;
+    width: 58%;
+}
+#btn4{
+    border: none;
+    border-radius: 10px;
+    width: 140px;
+    padding: 5px;
+    background-color: blue;
+    color: #fff;
+    box-shadow: 2px 2px 5px blue ;
+    height: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+#btn5{
+    border: 1px solid gray;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px;
+    width: 120px;
+    background-color: #fff;
+    height: 40px;
+    margin-left: 5px;
+}
+.top2{
+    background-image: url("../bgg.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+} 
+
+.snd{
+    text-align: center;
+    margin-top: 80px;
+}
+.snd img {
+    width: 80px;
+    height: 30px;
+    margin-left: 60px;
+}
+.thd{
+    margin-top: 80px;
+    width: 100%;
+}
+.thd h1{
+    font-weight: 600;
+    text-align: center;
+}
+.thd p{
+    text-align: center;
+    font-weight: 300;
+    margin-top: -10px;
+}
+.fth{
+    display: flex;
+    width: 100%;
+}
+.fth h3{
+    font-weight: 500;
+    
+}
+.fth p{
+    font-size: small;
+}
+#fw1{
+    text-align: left;
+    width: 35%;
+    border: 0.5px solid  #d3d3d3;
+    margin-left: 155px;
+    padding: 10px;
+    border-radius: 3px;
+}
+#fw2{
+    text-align: left;
+    width: 35%;
+    margin-left: 70px;
+    border: 0.5px solid #d3d3d3;
+    padding: 10px;
+    border-radius: 3px;
+}
+#fw3{
+    text-align: left;
+    width: 35%;
+    border: 0.5px solid #d3d3d3;
+    margin-left: 155px;
+    padding: 10px;   
+    margin-top: 10px;
+    border-radius: 3px;
+}
+#fw4{
+    text-align: left;
+    width: 35%;
+    margin-left: 70px;
+    border: 0.5px solid #d3d3d3;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+#fw1 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+}
+#fw2 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+}
+#fw3 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+}
+#fw4 img{
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+}
+.sixth{
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+    position: relative;
+}
+.sixpt1 p{
+    font-weight: 300;
+}
+.sixpt2{
+    margin-top: 100px;
+    width: 80%;
+    display: flex;
+    position: relative;
+
+}
+.sixpt2 .cardsix{
+    width: 35%;
+    text-align: left;
+    margin-left: 300px;
+}
+.cardsix button{
+    border: 0;
+    border-bottom: 2px solid royalblue;
+    color: royalblue;
+    background-color: #fff;
+    padding: 10px;
+    width: 150px;
+    text-align: left;
+}
+.cardsix p{
+    font-size: smaller;
+}
+ .rst p{
+    font-weight: 300;
+    font-size: smaller;
+}
+.rst {
+    color: #d3d3d3;
+}
+.sixpt3{
+    background-image: url("../orders.jpg");
+    width: 53%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 30px;
+}
+.svnth{
+    width: 100%;
+    margin-top: 200px;
+}
+.svpt1{
+    text-align: center;
+}
+.svpt1 p{
+    
+    font-weight: 300;
+
+}
+.svpt2{
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+}
+.svcard{
+    border: 1px solid #d3d3d3;
+    width: 300px;
+    max-width: 300px;
+    text-align: center;
+    margin: auto;
+    border-radius: 9px;
+}
+.svcard img{
+    width: 280px;
+    height: 180px;
+    padding: 3px;
+    border-radius: 9px;
+}
+.svcard p{
+    font-size: small;
+    font-weight: 300;
+}
+.svcard h3{
+    font-weight: 500;
+}
+
+
