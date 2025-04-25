@@ -15,7 +15,8 @@ body{
     height: 25px;
 }
 .head h2{
-    font-size: medium;
+    font-size: 20px;
+    font-weight: 500;
     margin-left: 40px;
 }
 .list1 li{
@@ -37,13 +38,13 @@ body{
 .list1 a:hover{
     font-style: italic;
 }
-.btnu{
+.head-tab{
     position: absolute;
     right: 40px;
     top: 15px;
 }
-.btnu button{
-    width: 120px;
+.head-tab button{
+    width: 150px;
     height: 40px;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -51,8 +52,8 @@ body{
     font-style: normal;
     background-color: #fff;
 }
-#btn1{
-    border: 0.5px solid #000;
+.btn11{
+    border: 1px solid #000;
     font-weight: bold;
     border-radius: 10px;
     padding: 5px;
@@ -62,9 +63,9 @@ body{
     border-radius: 10px;
     width: 80px;
     padding: 5px;
-    background-color: blue;
+    background-color: royalblue;
     color: #fff;
-    box-shadow: 2px 2px 5px blue ;
+    box-shadow: 1px 1px 5px royalblue ;
 }
 .Top{
     display: flex;
@@ -103,11 +104,11 @@ body{
 #btn4{
     border: none;
     border-radius: 10px;
-    width: 140px;
+    width: 150px;
     padding: 5px;
-    background-color: blue;
+    background-color: royalblue;
     color: #fff;
-    box-shadow: 2px 2px 5px blue ;
+    box-shadow: 2px 2px 5px royalblue ;
     height: 40px;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -119,16 +120,16 @@ body{
     font-weight: bold;
     border-radius: 10px;
     padding: 5px;
-    width: 120px;
+    width: 140px;
     background-color: #fff;
     height: 40px;
     margin-left: 5px;
 }
 .top2{
-    background-image: url("../bgg.jpg");
+    background-image: url("../IMG/bgg.jpg");
     background-position: center;
     background-size: cover;
-    width: 40%;
+    width: 38%;
 } 
 
 .snd{
@@ -139,10 +140,12 @@ body{
     width: 80px;
     height: 30px;
     margin-left: 60px;
+    
 }
 .thd{
-    margin-top: 80px;
+    margin-top: 120px;
     width: 100%;
+ 
 }
 .thd h1{
     font-weight: 600;
@@ -152,6 +155,7 @@ body{
     text-align: center;
     font-weight: 300;
     margin-top: -10px;
+    margin-bottom: 50px;
 }
 .fth{
     display: flex;
@@ -220,7 +224,7 @@ body{
 }
 .sixth{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 150px;
     width: 100%;
     position: relative;
 }
@@ -259,7 +263,7 @@ body{
     color: #d3d3d3;
 }
 .sixpt3{
-    background-image: url("../orders.jpg");
+    background-image: url("../IMG/orders.jpg");
     width: 53%;
     background-position: center;
     background-size: cover;
@@ -290,6 +294,7 @@ body{
     text-align: center;
     margin: auto;
     border-radius: 9px;
+    min-height: 328px;
 }
 .svcard img{
     width: 280px;
@@ -304,5 +309,351 @@ body{
 .svcard h3{
     font-weight: 500;
 }
+#btnsvn{
+    border: none;
+    border-radius: 10px;
+    width: 140px;
+    padding: 5px;
+    background-color: royalblue;
+    color: #fff;
+    box-shadow: 1px 1px 5px royalblue ;
+    height: 40px;
+    position: relative;
+    left: 45%;
+    margin-top: 40px;
+}
+.svnlast{
+    width: 100%;
+}
+.eht{
+    background-color: lightcyan;
+    display: flex;   
+    padding: 15px;
+    margin-top: 190px;
+    margin-bottom: 180px;
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.topeht{
+    width: 50%;
+}
+.topeht h1{
+    font-size: 50px;
+    font-weight: 400;
+}
+.topeht p{
+    font-weight: 200;
+    font-size: 16px;
+    margin-top: -10px;
+}
+.topeht button{
+    border: none;
+    border-radius: 10px;
+    width: 170px;
+    padding: 5px;
+    background-color: royalblue;
+    color: #fff;
+    box-shadow: 1px 1px 5px royalblue ;
+    height: 40px;   
+    margin-top: 20px;
+}
+.sndeht{
+    width: 50%;
+    flex-wrap: wrap;
+    margin: auto 0;
+}
+.sndeht button{
+    background-color: #fff;
+    padding: 5px;
+    height: 40px;
+    width: 120px;
+    border: 0;
+    border-radius: 2px;
+    margin: 3px;
+    font-weight: bold;
+}
+#ga{
+    min-width: 180px;
+    margin-left: 30px;
+}
+#spy{
+    margin-left: 45px;
+}
+#more{
+    background-color: #000;
+    color: #fff;
+    width: 90px;
+}
+.nth{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.nth h1{
+    font-size: 40px;
+    font-weight: 400;
+}
+.nth p{
+    font-size: 15px;
+    font-weight: 300;
+}
+.toggle-wrapper{
+    display: inline-flex;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #f5f5f5;
+}
+.toggle-option{
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: 400;
+}
+.nth2{
+    width: 100%;
+    margin-top: 20PX;
+    display: flex;
+}
+.nthcard1{
+    border: 1px solid #ccc;
+    width: 250px;
+    text-align: left;
+    margin-left: 230px;
+    border-radius: 8px;
+}
+.nthcard1 h2{
+    display: inline-block;
+}
+.nthcard1 button{
+    background-color: #ccc;
+    border: 0;
+    width: 95%;
+    height: 40px;
+    padding: 5px;
+    border-radius: 10px;
 
+    
+}
+.nthtop{
+    border-bottom: 1px solid #ccc;
+    width: 95%;
+    margin-left: 10px;
+}
+.nthsnd{
+    margin-left: 10px;
+}
+.nthcard1 ul{
+    font-size: 13px;
+    font-weight: 300;
+    list-style: none;
+    margin-left: -20px;
+}
+.nthcard1 li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.nthcard2{
+    border: 1px solid #ccc;
+    width: 250px;
+    text-align: left;
+    margin-left: 60px;
+    border-radius: 8px;
+}
+.nthcard2 h2{
+    display: inline-block;
+}
+.nthcard2 button{
+    background-color: royalblue;
+    box-shadow: 2px 2px 5px royalblue;
+    border: 0;
+    width: 95%;
+    height: 40px;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+}
+.nthcard2 ul{
+    font-size: 13px;
+    font-weight: 300;
+    list-style: none;
+    margin-left: -20px;
+}
+.nthcard2 li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.nthcard3{
+    border: 1px solid #ccc;
+    width: 250px;
+    text-align: left;
+    margin-left: 60px;
+    border-radius: 8px;
+}
+.nthcard3 h2{
+    display: inline-block;
+}
+.nthcard3 button{
+    background-color: lightblue;
+    box-shadow: 1px 1px 5px lightblue;
+    border: 0;
+    width: 95%;
+    height: 40px;
+    padding: 5px;
+    color: blue;
+    border-radius: 10px;
+}
+.nthcard3 ul{
+    font-size: 13px;
+    font-weight: 300;
+    list-style: none;
+    margin-left: -20px;
+}
+.nthcard3 li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.take-control{
+    width: 100%;
+    background-color:#6a55f8;
+    color: #fff;
+    display: flex;
+    margin-top: 60px;
 
+}
+.take-control-first {
+    width: 50%;
+    text-align: left;
+    margin-left: 5% ;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.take-control-first h1{
+    font-size: 40px;
+    font-weight: 400;
+
+}
+.take-control-first p{
+    font-weight: 300;
+}
+.take-mini-card{
+    display: inline-flex;
+}
+.take-mini-card p{
+    font-size: 12px;
+    font-weight: 300;
+    text-align: left;
+}
+.t-m-c{
+    margin-left: 20px;
+}
+.t-m-c h2{
+    font-weight: 400;
+}
+
+.t-m-c-1 h2{
+    font-weight: 400;
+}
+
+.take-control-bg{
+  background-image: url("../IMG/backg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover ;
+    width: 50%;
+}
+.t-m-b{
+    background-color: #fff;
+    border: 0;
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+    color: black;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.Bottom-first img{
+    width: 25px;
+    height: 25px;
+}
+.Bottom-first h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+.Bottom-first a{
+    text-decoration: none;
+    color: orangered;
+    margin-left: 10px;
+}
+.Bottom-first{
+    width: 35%;
+}
+.Bottom{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.Bottom-main{
+    display: flex;
+    border-bottom: 1px solid #d3d3d3;
+}
+.Bottom-lists{
+    width: 65%;
+    display: inline-flex;
+}
+.Bottom-lists li{
+    list-style: none;
+    position: relative;
+    left: 250px;
+}
+.Bottom-lists ul{
+    font-weight: 300;
+    font-size: 12px;
+}
+.Bottom-bottom{
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+}
+.Bottom-bottom li{
+    list-style: none;
+    display: inline-flex;
+    position: relative;
+    left: 370px;
+    font-size: 12px;
+    font-weight: 300;
+
+}
+.Bottom-bottom p{
+    width: 40%;
+    font-size: 12px;
+}
+.FAQ{
+    width: 90%;
+    margin-bottom: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+.FAQ h1{
+    font-weight: 400;
+}
+.FAQ p{
+    font-weight: 300;
+    font-size: 13px;
+}
+.accordion-button::after {
+    background-image: none !important;
+    content: '+' !important;
+    font-size: 1.5rem;
+    color: #000;
+    margin-left: auto;
+}
+
+.accordion-button:not(.collapsed)::after {
+    content: '−' !important;
+}
