@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -595,6 +598,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
+    box-sizing: border-box;
 }
 .Bottom-main{
     display: flex;
@@ -603,11 +607,11 @@ body{
 .Bottom-lists{
     width: 65%;
     display: inline-flex;
+    margin-left: 250px;
 }
 .Bottom-lists li{
     list-style: none;
-    position: relative;
-    left: 250px;
+
 }
 .Bottom-lists ul{
     font-weight: 300;
