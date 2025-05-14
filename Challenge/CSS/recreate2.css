@@ -133,7 +133,19 @@ nav li{
     list-style: none;
     margin-left: -30px;
     text-align: center;
+}
+#Work{
+    margin-right: 20px;
+    margin-left: 20px;
+}
 
+#employee{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#Tasks{
+    margin-right: 20px;
+    margin-left: 20px;
 }
 .firstCards{
     display: flex;
@@ -203,28 +215,9 @@ nav li{
     border-radius: 200px;
     cursor: pointer;
 }
-
-  
-  .dropdown-menu {
-    position: absolute;
-    top: 100%;
-    right: 0;
-    background-color: white;
-    border: 1px solid #ccc;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    display: none;
-    z-index: 100;
-    min-width: 100px;
-  }
-  
-  .dropdown-menu div {
-    padding: 8px 12px;
-    cursor: pointer;
-  }
-  
-  .dropdown-menu div:hover {
-    background-color: #f0f0f0;
-  }
+#btn1:hover{
+    background-color: #d5ef47;
+}
 .firstCharts{
     display:flex;
     gap: 10px;
@@ -340,4 +333,145 @@ nav li{
     padding: 20px;
     width: 48%;
     height: 300px;
+}
+@media (max-width: 430px){
+    
+    .Header h3{
+        font-size: 13px;
+        margin-top: 8px;
+    }
+    #upgrade{
+        width: 100px;
+        height: 30px;
+        font-size: 8px;
+
+    }
+    .Head-btn button{
+        padding: 5px;
+        font-size: 10px;
+    }
+    .Header h4{
+        font-size: 14px;
+    }
+    .nav-list button{
+        padding: 6px;
+    }
+    .nav-list a{
+        font-size: 12px;
+    }
+    .profile img{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .profile p{
+        font-size: 9px;
+    }
+    .profile h6{
+        font-size: 10px;
+    }
+    .top a{
+        font-size: 13px;
+    }
+    #employee{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    #Tasks{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    #Work{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .firstCards{
+        flex-direction: column;
+        width: 100%;
+        margin-top: -10px;
+    }
+    .firstCard1{
+        width: 90%;
+        height: 80px;
+        margin-right: 0px;
+        margin-bottom: 5px;
+    }
+    .firstCard1 h3{
+        font-size: 15px;
+    }
+    .firstCard2{
+        width: 90%;
+        height: 80px;
+        margin-right: 0px;
+        margin-bottom: 5px;
+    }
+    .firstCard2 h3{
+        font-size: 15px;
+    }
+    .firstCard3{
+        width: 90%;
+        height: 80px;
+        margin-right: 0px;
+        margin-bottom: 5px;
+    }
+    .firstCard3 h3{
+        font-size: 15px;
+    }
+    #btn1{
+        font-size: 10px;
+        padding: 3px;
+    }
+    .firstCharts{
+        flex-direction: column;
+        width: 90%;
+        margin-top: 10px;
+    }
+    .firstChart1{
+        width: 100%;
+        height: 150px;
+    }
+    #chart1{
+        width: 100%;
+        height: 100px;
+    }
+    .firstChart2{
+        width: 100%;
+        height: 170px;
+    }
+    .proGress{
+        margin-top: 0;
+    }
+    .fifty{
+        height: 25px;
+    }
+    .thrity{
+        height: 25px;
+    }
+    .twenty{
+        height: 25px;
+    }
+    .secondCharts{
+        flex-direction: column;
+        width: 90%;
+        margin-top: 10px;
+    }
+    .secondChart1{
+        width: 100%;
+        height: 150px;
+        margin-bottom: 10px;
+    }
+    #chart2{
+        width: 100%;
+        height: 100px;
+    }
+    .secondChart2{
+        width: 100%;
+        height: 150px;
+        margin-bottom: 40px;
+    }
+    #chart3{
+        width: 100%;
+        height: 100px;
+
+    }
 }
