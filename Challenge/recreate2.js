@@ -182,3 +182,13 @@ const chart3 = new Chart(ctx2, {
     }
 });
 
+let globalUsername;
+
+// const username = document.getElementById('username').value;
+const displayUsername = document.getElementById('displayUsername')
+const username = localStorage.getItem('username')
+
+
+displayUsername.innerText += username
+
+
