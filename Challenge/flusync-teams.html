@@ -114,7 +114,31 @@
                     </div>
                     <div class="add-team">
                         <h4> Add New Team</h4>
-                        <a href="#"><i class="fas fa-plus-circle"></i></a>
+                        <a href="#"><button id="addTeam"><i class="fas fa-plus-circle"></i></button></a>
+                    </div>
+                    <div id="createTeam" class="create-team">
+                        <div class="create-team-content">
+                            <span class="close-btn" id="closeBtn">&times;</span>
+                            <h4 > <span class="fas fa-shapes" style="margin-right: 5px;"></span> Flusync</h4>
+                            <label for="teamName">Name of Team :</label>
+                            <input type="text" name="Name-of-team"  placeholder="Team Name" minlength="2" maxlength="12" id="teamName">  <br>
+                            
+                                
+                            <div class="select-icon">
+                                  <label for="teamIcon">Select Icon :</label>
+                                    <div id="teamIcon">
+                                   <button class="team-icon" id="iconOne">🤪</button>
+                                   <button class="team-icon" id="iconTwo">🥾</button>
+                                   <button class="team-icon" id="iconThree">💠</button>
+                                   <button class="team-icon" id="iconFour">🌼</button>
+                                  <button class="team-icon" id="iconFive">🥷🏾</button>
+                                  <button class="team-icon" id="iconSix">🧙</button>
+                              </div>
+                            </div>
+                            <button id="submitTeam">Create Team <span class="fas fa-plus-circle"></span></button>
+
+                        </div>
+
                     </div>
 
                 </div>
@@ -283,5 +307,6 @@
             </div>
         </div>
     </footer> 
+    <script src="flusync-teams.js"></script>
 </body>
 </html>
