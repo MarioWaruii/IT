@@ -1,0 +1,532 @@
+*{
+  font-family:"Poppins", sans-serif;
+}
+.Header{
+    display: inline-flex;
+    color: hsl(0, 0%, 0%);
+    padding: 5px;
+    padding-left: 12px;
+    width: 100%;
+}
+.Header button{
+    background: white;
+    border-radius: 60%;
+    border: none;
+    font-size: 12px;
+    padding: 10px;
+}
+.Head-btn{
+ margin-left: auto;
+}
+.Header a{
+    text-decoration: none;
+    color: #000;
+}
+#upgrade{
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    width:150px;
+    height:40px;
+    margin-right: 20px;
+}
+#upgrade a{
+    color:#fff
+}
+.Header h3{
+    font-weight: 500;
+    margin-left: 6%;
+}
+.Header h4{
+    position: relative;
+    top: 5px;
+    font-weight: 700;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+nav{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width:15%;
+    height: 90vh;
+    flex-direction: column;
+
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+nav li{
+   list-style: none;
+}
+.nav-list button{
+    background-color: #f4f5f7 ;
+    border: none;
+    font-size: 12px;
+    padding: 12px;
+    color: #acacb2;
+    text-align: left;
+    cursor: pointer;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+}
+.nav-list a:hover{
+    color:#acacb2;
+}
+
+.nav-list button:active{
+    border-left: solid 2px #000;
+    color: #000;
+}
+.nav-list button:hover{
+    background-color: #fff;
+    color: #000;
+}
+#navTeam{
+    border-left: 5px solid #000;
+}
+#navTeam a{
+    color: #000;
+}
+
+.profile{
+    
+    margin-top: auto;
+    text-align: center;
+}
+.profile img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.profile p{
+    font-weight: 300;
+    font-size: 12px;
+    margin-top: -5px;
+}
+.profile h6{
+    margin-top: 5px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.content{
+
+    width: 85%;
+
+}
+
+.top a{
+    text-decoration:none;
+    color: #000;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-bottom: 2px solid transparent;
+    padding-right: 10px;
+}
+.top a:hover{
+    color: #000;
+    border-color: #000;
+}
+.top ul{
+    display: inline-flex;
+    list-style: none;
+    margin-left: -30px;
+    text-align: center;
+}
+.Team-Card{
+    margin-top: 70px;
+    text-align: center;
+}
+.Team-Cards{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.Frontend-team{
+    width: 361px;
+    height: 71px;
+    color: #000;
+    padding: 15px;
+    background-color: #D2E2DF;
+    text-align: left;
+    margin-right:10px;
+    margin-top: 15px;
+}
+.Frontend-team h4{
+    margin-top: -10px;
+    font-weight: 400;
+}
+.Frontend-team a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 90%;
+    position: relative;
+    bottom: 16px;
+    cursor: pointer;
+}
+.Frontend-team a:hover{
+    color: #000;
+}
+.user-img{
+    margin-top: -25px;
+    margin-left: 25px;
+}
+.user-img img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.img-space{
+    margin-left: -10px;
+}
+.Backend-team{
+    width: 361px;
+    height: 71px;
+    color: #000;
+    padding: 15px;
+    background-color: #D6F23A;
+    text-align: left;
+    margin-right:10px;
+    margin-top: 15px;
+}
+.Backend-team h4{
+    margin-top: -10px;
+    font-weight: 400;
+}
+.Backend-team a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 90%;
+    position: relative;
+    bottom: 16px;
+    cursor: pointer;
+}
+.Backend-team a:hover{
+    color: #000
+}
+.Marketing-team{
+    width: 361px;
+    height: 71px;
+    color: #000;
+    padding: 15px;
+    background-color: #B9AFEE;
+    text-align: left;
+    margin-top: 15px;
+}
+.Marketing-team h4{
+    margin-top: -10px;
+    font-weight: 400;
+}
+.Marketing-team a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 90%;
+    position: relative;
+    bottom: 16px;
+    cursor: pointer;
+}
+.Marketing-team a:hover{
+    color: #000;
+}
+.Financial-team{
+    width: 361px;
+    height: 71px;
+    color: #000;
+    padding: 15px;
+    background-color: #D2E2DF;
+    text-align: left;
+    margin-right:10px;
+    margin-top: 15px;
+}
+.Financial-team h4{
+    margin-top: -10px;
+    font-weight: 400;
+}
+.Financial-team a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 90%;
+    position: relative;
+    bottom: 16px;
+    cursor: pointer;
+}
+.Financial-team a:hover{
+    color: #000;
+}
+.Research-team{
+    width: 361px;
+    height: 71px;
+    color: #000;
+    padding: 15px;
+    background-color: #D6F23A;
+    text-align: left;
+    margin-right:10px;
+    margin-top: 15px;
+}
+.Research-team h4{
+    margin-top: -10px;
+    font-weight: 400;
+}
+.Research-team a{
+    text-decoration: none;
+    color: #000;
+    margin-left: 90%;
+    position: relative;
+    bottom: 16px;
+    cursor: pointer;
+}
+.Research-team a:hover{
+    color: #000;
+}
+.add-team{
+    width: 361px;
+    height: 71px;
+    color: #fff;
+    padding: 15px;
+    background-color: #8E8F89;
+    text-align: left;
+    margin-right:10px;
+    margin-top: 15px;
+}
+.add-team h4{
+    margin-top: 5px;
+    font-weight: 400;
+}
+.add-team a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 90%;
+    position: relative;
+    bottom: 34px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.add-team a:hover{
+    color: #000;
+}
+.team-member{
+    margin-top: 50px;
+}
+.team-member-head{
+    width: 100%;
+    display: inline-flex;
+}
+.team-member-head h2{
+    margin-left: auto;
+    margin-right: 25%;
+}
+.filter-btn{
+    border: 1px solid #000;
+    border-radius: 99px;
+    width: 112px;
+    height: 30px;
+
+}
+.filter-dropdown{
+    display: inline-block;
+    position: relative;
+    margin-right: 14px;
+}
+.filter-content{
+  display: none;
+  position: absolute;
+  left: -20px;
+  background-color: #f9f9f9;
+  min-width: 112px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.filter-content a{
+    cursor: pointer;
+    color: black;
+    padding: 4px;
+    text-decoration: none;
+    display: block;
+}
+.filter-content a:hover{
+    color: #000;
+    cursor: pointer;
+}
+.filter-dropdown:hover .filter-content{
+    display: block;
+}
+.team-members{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 350px;
+    overflow-x: scroll;
+}
+.team-member-card{
+    width: 212px;
+    height: 347px;
+    background-color: rgba(0,0,0,0.1);
+    padding: 10px;
+    text-align: center;
+    margin-left: 3px;
+    margin-top: 5px;
+}
+.team-member-card::-webkit-scrollbar{
+    width:5px;
+}
+.team-member-card img{
+    width: 119px;
+    height: 119px;
+    border-radius: 50%;
+    margin-left: 5%;
+}
+.team-member-card h3{
+    font-size: 25px;
+}
+.team-member-card h5{
+    font-size: 18px;
+}
+.team-member-card h4{
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 8px;
+}
+.team-member-card ul{
+    margin-left: -65px;
+}
+.team-member-card a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #000;
+    padding-left: 30px;
+}
+.team-IG{
+    color: #DE54DB !important;
+}
+.team-FB{
+    color: #89E3D2 !important;
+}
+.team-member-card button{
+    width:100px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    padding: 5px;
+}
+#cardOne{
+    margin-left: 2.5%;
+}
+#cardSix{
+    margin-left: 2.5%;
+}
+footer{
+    height: 300px;
+    background: #CEC9C9;
+    margin-top: 100px;
+}
+.top-box{
+    background: #000;
+    width: 50%;
+    margin-left: auto;
+    margin-right: 25%;
+    height: 35%;
+    position: relative;
+    bottom: 20%;
+    box-shadow: -10px 10px 4px rgb(0,0,0,0.6);
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    border-radius: 5px;
+}
+.top-box-content{
+    text-align: left;
+    color:#fff;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.top-box-btn a{
+    color: #000;
+
+}
+.top-box-btn button{
+    background: #fff;
+    width: 150px;
+    height: 38px;
+    margin-top: 22.5%;
+    margin-bottom: auto;
+    margin-left: 30%;
+    border: 0;
+    border-radius: 5px;
+    transition: all 0.2s;
+}
+.top-box-btn button:hover{
+    background-color: #FAC9C9;
+    height: 43px;
+}
+.bottom-box{
+    display: flex;
+    flex-direction: row;
+    width: 72%;
+    margin-left: 15%;
+}
+.bottom-box-company{
+   padding-left: 8%;
+}
+.bottom-box-company ul{
+    list-style: none;
+}
+.bottom-box-company a{
+    text-decoration: none;
+    color: #000;
+} 
+.bottom-box-company a:hover{
+    font-style: italic;
+    cursor: pointer;
+    color: #000;
+}
+.bottom-box-company li{
+    margin-bottom: 5px;
+}
+.bottom-box-info{
+    padding-left: 10%;
+}
+.bottom-box-info ul{
+    list-style: none;
+}
+.bottom-box-info li{
+    margin-bottom: 5px;
+}
+.bottom-box-info a{
+    text-decoration: none;
+    color: #000;
+}
+.bottom-box-info a:hover{
+    font-style: italic;
+    cursor: pointer;
+}
+.bottom-box-links{
+    padding-left: 10%;
+}
+.bottom-box-links h4{
+    padding-left: 2.5px;
+}
+.bottom-box-links a{
+    padding-top: 20px;
+    font-size: 25px;
+    padding-right: 3px;
+    cursor: pointer;
+    color: #000;
+}   
+.bottom-box-links a:hover{
+    color: #000;
+}
