@@ -18,7 +18,7 @@
         <div class="Head-btn">
             <button> <a href="#" class="fas fa-user-plus"></a></button>
             <button><a href="#" class="fas fa-comment-dots" ></a></button>
-            <button  id="upgrade"><a href="#">upgrade plan</a></button>
+            <button  id="upgrade"><a href="flusync-signup.html">Sign up</a></button>
         </div>
     </div>
     <section >
@@ -55,8 +55,8 @@
             </div>
             <div class="Team-Card">
                 <h2>Meet the Teams!</h2>
-                <div class="Team-Cards">
-                    <div class="Frontend-team">
+                <div class="Team-Cards" id="teamCards">
+                    <div class="Frontend-team teams">
                         <h4><span style="font-size: 17px;" class="fas fa-pen-nib"></span> Frontend Team</h4>
                         <a href="#"><i class="fas fa-arrow-right"></i></a>
                         <div class="user-img">
@@ -68,7 +68,7 @@
                             <img class="img-space" src="IMG/woman-in-office.jpg" alt="user">
                         </div>
                     </div>
-                    <div class="Backend-team">
+                    <div class="Backend-team teams"  >
                         <h4><span style="font-size: 17px;" class="fas fa-server"></span> Backend Team</h4>
                         <a href="#"><i class="fas fa-arrow-right"></i></a>
                         <div class="user-img">
@@ -78,7 +78,7 @@
                             <img class="img-space" src="IMG/woman-in-office.jpg" alt="user">
                         </div>
                     </div>
-                    <div class="Marketing-team">
+                    <div class="Marketing-team teams">
                         <h4><span style="font-size: 17px;" class="fas fa-bullhorn"></span> Marketing Team</h4>
                         <a href="#"><i class="fas fa-arrow-right"></i></a>
                         <div class="user-img">
@@ -91,7 +91,7 @@
                             <img class="img-space" src="IMG/woman-in-office.jpg" alt="user">
                         </div>
                     </div>
-                    <div class="Financial-team">
+                    <div  class="Financial-team teams">
                         <h4><span style="font-size: 17px;" class="fas fa-briefcase"></span> Financial Team</h4>
                         <a href="#"><i class="fas fa-arrow-right"></i></a>
                         <div class="user-img">
@@ -100,7 +100,7 @@
                             <img class="img-space" src="IMG/man-in-office.jpg" alt="user">
                         </div>
                     </div>
-                    <div class="Research-team">
+                    <div class="Research-team teams">
                         <h4><span style="font-size: 17px;" class="fas fa-lightbulb"></span> Research Team</h4>
                         <a href="#"><i class="fas fa-arrow-right"></i></a>
                         <div class="user-img">
@@ -112,7 +112,7 @@
                             <img class="img-space" src="IMG/woman-in-office.jpg" alt="user">
                         </div>
                     </div>
-                    <div class="add-team">
+                    <div class="add-team teams">
                         <h4> Add New Team</h4>
                         <a href="#"><button id="addTeam"><i class="fas fa-plus-circle"></i></button></a>
                     </div>
@@ -121,21 +121,21 @@
                             <span class="close-btn" id="closeBtn">&times;</span>
                             <h4 > <span class="fas fa-shapes" style="margin-right: 5px;"></span> Flusync</h4>
                             <label for="teamName">Name of Team :</label>
-                            <input type="text" name="Name-of-team"  placeholder="Team Name" minlength="2" maxlength="12" id="teamName">  <br>
+                            <input type="text" name="Name-of-team" required placeholder="Team Name" minlength="2" maxlength="12" id="teamName">  <br>
                             
                                 
                             <div class="select-icon">
                                   <label for="teamIcon">Select Icon :</label>
                                     <div id="teamIcon">
-                                   <button class="team-icon" id="iconOne">🤪</button>
-                                   <button class="team-icon" id="iconTwo">🥾</button>
+                                   <button class="team-icon"  id="iconOne">🤪</button>
+                                   <button class="team-icon" value="1" id="iconTwo">🥾</button>
                                    <button class="team-icon" id="iconThree">💠</button>
                                    <button class="team-icon" id="iconFour">🌼</button>
                                   <button class="team-icon" id="iconFive">🥷🏾</button>
                                   <button class="team-icon" id="iconSix">🧙</button>
                               </div>
                             </div>
-                            <button id="submitTeam">Create Team <span class="fas fa-plus-circle"></span></button>
+                            <button onclick="addCard()" id="submitTeam">Create Team <span class="fas fa-plus-circle"></span></button>
 
                         </div>
 
@@ -148,22 +148,24 @@
                     <h2>
                         Meet The Members!
                     </h2>
-                    <div class="filter-dropdown">
-                    <button id="fiterBtn" class="filter-btn">
-                        Filter <span class="fas fa-filter"></span>
-                    </button>
-                    <div class="filter-content">
-                        <a href="#">Frontend</a>
-                        <a href="#">Backend</a>
-                        <a href="#">Financial</a>
-                        <a href="#">Research</a>
-                        <a href="#">Marketing</a>
-                        <a href="#">Reset</a>
-                    </div>
-                    </div>
+                    
+                    <!-- <div class="filter-dropdown">
+                        <button id="fiterBtn" class="filter-btn">
+                            Filter <span class="fas fa-filter"></span>
+                        </button>
+                        <div class="filter-content">
+                          <select  id="filterContent" onclick="filterCards()">
+                            <a href="#"><option value="Frontend">Frontend</option></a>
+                            <a href="#"><option value="Backend">Backend</option></a>
+                            <a href="#"><option value="Financial">Financial</option></a>
+                            <a href="#"><option value="Research">Research</option></a>
+                            <a href="#"><option value="Marketing">Marketing</option></a>
+                          </select>
+                        </div>
+                    </div> -->
                 </div>
                 <div class="team-members">
-                    <div id="cardOne" class="team-member-card">
+                    <div data-category="Frontend" class="team-member-card">
                         <img src="IMG/man-in-office.jpg" alt="profile"> <br> <br>
                         <h3>BEN SHAPIRO</h3>
                         <h5>UI Developer</h5>
@@ -175,7 +177,7 @@
                         </ul> 
                         <button>Learn More</button>
                     </div>
-                    <div id="cardTwo" class="team-member-card">
+                    <div data-category="Backend" class="team-member-card">
                         <img src="IMG/man-in-office.jpg" alt="profile"> <br> <br>
                         <h3>BEN SHAPIRO</h3>
                         <h5>UI Developer</h5>
@@ -187,7 +189,7 @@
                         </ul> 
                         <button>Learn More</button>
                     </div> 
-                    <div id="cardThree" class="team-member-card">
+                    <div data-category="Research" class="team-member-card">
                         <img src="IMG/man-in-office.jpg" alt="profile"> <br> <br>
                         <h3>BEN SHAPIRO</h3>
                         <h5>UI Developer</h5>
@@ -199,7 +201,7 @@
                         </ul> 
                         <button>Learn More</button>
                     </div>
-                    <div id="cardFour" class="team-member-card">
+                    <div data-category="Financial" class="team-member-card">
                         <img src="IMG/man-in-office.jpg" alt="profile"> <br> <br>
                         <h3>BEN SHAPIRO</h3>
                         <h5>UI Developer</h5>
@@ -211,7 +213,7 @@
                         </ul> 
                         <button>Learn More</button>
                     </div>
-                    <div id="cardFive" class="team-member-card">
+                    <div data-category="Marketing" class="team-member-card">
                         <img src="IMG/man-in-office.jpg" alt="profile"> <br> <br>
                         <h3>BEN SHAPIRO</h3>
                         <h5>UI Developer</h5>
@@ -223,7 +225,7 @@
                         </ul> 
                         <button>Learn More</button>
                     </div> 
-                      <div id="cardSix" class="team-member-card">
+                      <div data-category="Backend" class="team-member-card">
                         <img src="IMG/man-in-office.jpg" alt="profile"> 
                         <h3>BEN SHAPIRO</h3>
                         <h5>UI Developer</h5>

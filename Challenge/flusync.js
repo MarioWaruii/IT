@@ -191,4 +191,12 @@ const username = localStorage.getItem('username')
 
 displayUsername.innerText += username
 
+let login = document.getElementById('upgrade');
+
+// if(username === ''){
+//     login.innerText = "signup"
+// }
+// else{
+//     login.innerText = "welcome"
+// }
 
