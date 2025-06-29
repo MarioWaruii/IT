@@ -429,21 +429,24 @@ nav li{
 }
 .team-member-head h2{
     margin-left: auto;
-    margin-right: 25%;
+    margin-right: 10%;
 }
-.filter-btn{
-    border: 1px solid #000;
-    border-radius: 99px;
-    width: 112px;
-    height: 30px;
-
+#searchInput{
+    width: 20%;
+    height: 25%;
+    margin-right: 5%;
 }
 .filter-dropdown{
     display: inline-block;
     position: relative;
-    margin-right: 14px;
+    margin-right: 3%;
+    height: 50px;
+    padding: 5px;
+
+
 }
-.filter-content{
+
+#filterLinks{
   display: none;
   position: absolute;
   left: -20px;
@@ -452,18 +455,18 @@ nav li{
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
-.filter-content a{
+#filterLinks a{
     cursor: pointer;
     color: black;
     padding: 4px;
     text-decoration: none;
     display: block;
 }
-.filter-content a:hover{
+#filterLinks a:hover{
     color: #000;
     cursor: pointer;
 }
-.filter-dropdown:hover .filter-content{
+.filter-dropdown:hover #filterLinks{
     display: block;
 }
 .team-members{

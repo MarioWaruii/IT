@@ -148,22 +148,17 @@
                     <h2>
                         Meet The Members!
                     </h2>
-                    
-                    <!-- <div class="filter-dropdown">
-                        <button id="fiterBtn" class="filter-btn">
-                            Filter <span class="fas fa-filter"></span>
-                        </button>
-                        <div class="filter-content">
-                          <select  id="filterContent" onclick="filterCards()">
-                            <a href="#"><option value="Frontend">Frontend</option></a>
-                            <a href="#"><option value="Backend">Backend</option></a>
-                            <a href="#"><option value="Financial">Financial</option></a>
-                            <a href="#"><option value="Research">Research</option></a>
-                            <a href="#"><option value="Marketing">Marketing</option></a>
-                          </select>
+                    <input type="text" id="searchInput" placeholder="Search cards..." oninput="filterCards()" />
+                    <div class="filter-dropdown">
+                        <p>Filter</p>
+                        <div id="filterLinks">
+                          <a href="#" data-filter="all" class="active" onclick="filterByCategory(event)">All</a>
+                          <a href="#" data-filter="Backend" onclick="filterByCategory(event)">Backend</a>
+                          <a href="#" data-filter="Research" onclick="filterByCategory(event)">Research</a>
+                          <a href="#" data-filter="Marketing" onclick="filterByCategory(event)">Marketing</a>
                         </div>
-                    </div> -->
-                </div>
+                    </div>
+                </div> 
                 <div class="team-members">
                     <div data-category="Frontend" class="team-member-card">
                         <img src="IMG/man-in-office.jpg" alt="profile"> <br> <br>
@@ -179,7 +174,7 @@
                     </div>
                     <div data-category="Backend" class="team-member-card">
                         <img src="IMG/man-in-office.jpg" alt="profile"> <br> <br>
-                        <h3>BEN SHAPIRO</h3>
+                        <h3>BEN Mario</h3>
                         <h5>UI Developer</h5>
                         <h4>FRONTEND</h4>
                         <ul>
@@ -225,8 +220,8 @@
                         </ul> 
                         <button>Learn More</button>
                     </div> 
-                      <div data-category="Backend" class="team-member-card">
-                        <img src="IMG/man-in-office.jpg" alt="profile"> 
+                     <div data-category="Marketing" class="team-member-card">
+                        <img src="IMG/man-in-office.jpg" alt="profile"> <br> <br>
                         <h3>BEN SHAPIRO</h3>
                         <h5>UI Developer</h5>
                         <h4>FRONTEND</h4>
@@ -236,7 +231,8 @@
                             <a class="team-X" href="#"> <span class=" fab fa-twitter-square"></span></a>
                         </ul> 
                         <button>Learn More</button>
-                    </div>
+                    </div> 
+                     
                 </div>
 
             </div>

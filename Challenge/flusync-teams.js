@@ -73,4 +73,36 @@ function addCard() {
     selectedTeam = '';
 
   };
+// filter cards
+let selectedCategory = 'all'; // Default to showing all
 
+function filterByCategory(event) {
+  event.preventDefault(); // Stop link from navigating
+  const links = document.querySelectorAll('#filterLinks a');
+
+    // Remove 'active' class from all, add to clicked
+  links.forEach(link => link.classList.remove('active'));
+  event.target.classList.add('active');
+
+  selectedCategory = event.target.getAttribute('data-filter');
+  filterCards();
+};
+
+function filterCards() {
+  const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+  const cards = document.querySelectorAll('.team-members .team-member-card');
+
+  cards.forEach(card => {
+    const category = card.getAttribute('data-category');
+    const content = card.textContent.toLowerCase();
+
+    const categoryMatches = (selectedCategory === 'all' || category === selectedCategory);
+    const textMatches = content.includes(searchTerm);
+
+      if (categoryMatches && textMatches) {
+        card.style.display = 'block';
+    } else {
+      card.style.display = 'none';
+    }
+  });
+}
