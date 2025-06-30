@@ -66,9 +66,9 @@ nav{
     flex-direction: column;
     z-index: 100;
 }
-/* .nav-icon{
+.nav-icon{
     padding-right: 5px;
-} */
+}
 .nav-list{
     display: flex;
     flex-direction: column;
