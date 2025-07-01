@@ -1,6 +1,9 @@
 *{
   font-family:"Poppins", sans-serif;
 }
+body{
+    background-color:  #f4f5f7 !important;
+}
 .Header{
     display: inline-flex;
     color: hsl(0, 0%, 0%);
@@ -8,6 +11,7 @@
     padding-left: 12px;
     width: 100%;
     margin-top: 10px;
+    background-color:  #f4f5f7;
 }
 .Header button{
     background: white;
@@ -34,11 +38,12 @@
 #upgrade a{
     color:#fff
 }
-.Header h3{
+.Header h5{
     font-weight: 500;
-    margin-left: 2.8%;
+    margin-left: 1.5%;
+    margin-top: 12px;
 }
-.Header h4{
+.Header h3{
     position: relative;
     top: 5px;
     font-weight: 700;
@@ -47,6 +52,7 @@ section{
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
+    background-color:  #f4f5f7;
 
 }
 nav{

@@ -15,8 +15,8 @@
 <body>
 
     <div class="Header">
-        <h4 > <span class="fas fa-shapes" style="margin-right: 5px;"></span> Flusync</h4>
-        <h3 >Goals </h3>
+        <h3 > <span class="fas fa-shapes" style="margin-right: 5px;"></span> Flusync</h3>
+        <h5 >Goals </h5>
         <div class="Head-btn">
             <button> <a href="#" class="fas fa-user-plus"></a></button>
             <button><a href="#" class="fas fa-comment-dots" ></a></button>
@@ -39,7 +39,7 @@
                     <a href="#"> <li> <span class="fas fa-star nav-icon" ></span> <span class="nav-text" >Tasks</span></li></a>
                 </button>
                 <button>
-                    <a href="#"> <li> <span class="fas fa-chart-bar nav-icon" ></span><span class="nav-text" >Analytics</span></li></a>
+                    <a href="flusync-analytics.html"> <li> <span class="fas fa-chart-bar nav-icon" ></span><span class="nav-text" >Analytics</span></li></a>
                 </button>
             </ul>
             <div class="profile">
@@ -49,17 +49,69 @@
             </div>
         </nav>
         <div class="container" class="content">
-            <div class="content-head">
+            <div class="content-header">
                         <h2>Our Goals!</h2>
             </div>
-            <div class="goal-one">
-                <div>
-                    <img src="" alt="">
-                    <img src="" alt="">
+            <div class="content-body">
+                <div class="content-head">
+                    <input type="text" placeholder="search..." name="search" id="searchGoals">
+                    <button id="filterGoals">
+                        filter <span class="fas fa-filter"></span>
+                    </button>
+                    <button id="addGoal">
+                         Add a Goal <span class="fas fa-plus"></span>
+                    </button>
                 </div>
-                <div>
+                 <div class="content-goals">
+                    <div class="content-goal-one">
+                        <i class="fas fa-hashtag"></i>
+                        <h5>Budget Management</h5>
+                        <div class="goal-bar" title="70% completed">
+                            <div class="bar-one">
 
-                </div>
+                            </div>
+                        </div>
+                        <button id="deleteBtn">
+                            delete <span class=" fas fa-trash"></span>
+                        </button>
+                        <button id="editBtn">
+                             edit <span class="fas fa-edit"></span>
+                        </button>
+                    </div>
+                    <div class="content-goal-one">
+                        <i class="fas fa-hashtag"></i>
+                        <h5>Fiancial Goal Setting</h5>
+                        <div class="goal-bar" >
+                            <div class="bar-two">
+                             
+                            </div> 
+                        </div>
+                        <button id="deleteBtn">
+                            delete <span class=" fas fa-trash"></span>
+                        </button>
+                        <button id="editBtn">
+                             edit <span class="fas fa-edit"></span>
+                        </button>
+                    </div>     
+                   <div class="content-goal-one">
+                        <i class="fas fa-hashtag"></i>
+                        <h5>Savings Management</h5>
+                        <div class="goal-bar" tooltip="70% completed">
+                            <div class="bar-three">
+
+                            </div>
+                        </div>
+                        <button id="deleteBtn">
+                            delete <span class=" fas fa-trash"></span>
+                        </button>
+                        <button id="editBtn">
+                             edit <span class="fas fa-edit"></span>
+                        </button>
+                    </div>
+                    
+                    
+                    
+                 </div>
             </div>
         </div>
     </section>
