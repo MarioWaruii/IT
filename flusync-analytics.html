@@ -53,23 +53,66 @@
                      <h2>
                         Total Projects
                      </h2>
-                <div class="total-projects">
+                <div class="total-charts">
                     <div class="firstChartone">
                         <canvas id="PieChartOne"></canvas>
                         <div class="firstChart-content">
-                            <h3>Total Projects</h3>
-                            <h3>Accumulated Earnings</h3>
-                            <h2>$118,437  <span class=" trend fas fa-arrow-down"> 2.8 % </span></h2>
+                            <h3>Total Revenue</h3>
+                            <h5>Accumulated Earnings</h5>
+                            <h1>$118,437 <span class="trendone fas fa-arrow-down"></span><span id="perIncOne">2.8%</span></h1>
+                            <div class="firstChart-slider-one">
+                                <button id="oneDay">1d</button>
+                                <button id="oneWeek">1w</button>
+                                <button id="oneMonth">1m</button>
+                                <button id="oneYear">1y</button>
+                                <button class="active" id="allTime">AT</button>
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="firstCharttwo">
+                        <canvas id="PieChartTwo"></canvas>
+                        <div class="firstChart-content">
+                            <h3>Total Savaings</h3>
+                            <h5>Accumulated Savaings</h5>
+                            <h1>$15,437 <span class="trendtwo fas fa-arrow-up"></span><span id="perIncTwo">5.8%</span></h1>
+                            <div class="firstChart-slider-two">
+                                <button id="oneDay">1d</button>
+                                <button id="oneWeek">1w</button>
+                                <button id="oneMonth">1m</button>
+                                <button class="active" id="oneYear">1y</button>
+                                <button  id="allTime">AT</button>
+                            </div>
                         </div>
                     </div>
                     <div>
 
                     </div>
                 </div>
-                 
-                     <div>
-
+                <div class="customer-table">
+                    <div class="customer-table-head">
+                        <h3>Our Customers</h3>
+                        <button id="addCustomer">
+                            <span class="fas fa-plus"></span>
+                            Add Customer
+                        </button>
+                        <button id="editCustomer">
+                            <span class="fas fa-user-edit"></span>
+                            Edit Customer
+                        </button>
                     </div>
+                    <div class="customer-table-content">
+                        <div class="customer-table-content-head">
+                            <h4>Name</h4>
+                            <h4>Return</h4>
+                            <h4>Status</h4>
+                            <h4>Rating </h4>
+                        </div>
+                        <div>
+
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
