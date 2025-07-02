@@ -39,11 +39,12 @@ body{
 #upgrade a{
     color:#fff
 }
-.Header h3{
+.Header h5{
     font-weight: 500;
-    margin-left: 1%;
+    margin-left: 9px;
+    margin-top: 12px;
 }
-.Header h4{
+.Header h3{
     position: relative;
     top: 5px;
     font-weight: 700;
