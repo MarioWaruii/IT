@@ -191,12 +191,13 @@ footer{
     list-style: none;
 }
 .bottom-box-company a{
-    text-decoration: none;
+    text-decoration: none ;
     color: #000;
 } 
 .bottom-box-company a:hover{
     font-style: italic;
     cursor: pointer;
+    color: #000;
 }
 .bottom-box-company li{
     margin-bottom: 5px;
@@ -217,6 +218,7 @@ footer{
 .bottom-box-info a:hover{
     font-style: italic;
     cursor: pointer;
+    color: #000;
 }
 .bottom-box-links{
     padding-left: 10%;
@@ -231,26 +233,201 @@ footer{
     cursor: pointer;
     color: #000;
 }
+.bottom-box-links a:hover{
+    color: #000;
+    text-decoration: none;
+}
 .Projects {
     margin-top: 50px;
     text-align: center;
+    margin-bottom: 200px;
 }
 .Projects h2{
     margin-bottom: 50px;
 }
 .total-projects{
     width: 100%;
+
 }
-.firstChart1{
-    background-color: #fff;
+.total-charts{
+        display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 98%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.firstChartone{
+    background-color: #9595a060;
     border-radius: 5px;
     padding: 20px;
-    width: 50%;
+    width: 48%;
     height: 300px;
     display: flex;
     flex-direction: row;
 }
 canvas{
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 50%;
+    max-height: 100%;
+}
+.firstChartone-content{
+    width: 50%;
+    padding-right: 10px;
+    text-align: right;
+}
+.firstChartone-content h5{
+    font-weight: 400;
+    color: #fff;
+    margin-top: 10px !important;
+}
+.firstChartone-content h3{
+    margin-top: 25px;
+
+}
+.trendOne{
+    color: red;
+    font-size: 10px;
+}
+#perIncOne{
+    color: red;
+    font-size: 10px;
+}
+.firstChartone-slider{
+    width: 100%;
+    border-radius: 500px;
+    margin-top: 20px;
+    border: 1px solid #000;
+    margin-top: 25px;
+}
+
+.firstChartone-content button{
+    background: 0;
+    border: 0;
+    color: #000;
+    height: 100%;
+    padding: 0 10px;
+}
+.active{
+    background: #fff !important;
+    color: purple !important;
+    border-radius: 500px !important;
+}
+#oneDay{
+    margin-right: 2.2%;
+}
+
+.firstCharttwo{
+    background-color: #9595a060;
+    border-radius: 5px;
+    padding: 20px;
+    width: 48%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+.firstCharttwo-content{
+    width: 50%;
+    padding-right: 10px;
+    text-align: right;
+}
+.firstCharttwo-content h5{
+    font-weight: 400;
+    color: #fff;
+    margin-top: 10px;
+}
+.firstCharttwo-content h3{
+    margin-top: 25px;
+
+}
+.trendTwo{
+    color: green;
+    font-size: 10px;
+}
+#perIncTwo{
+    color: green;
+    font-size: 10px;
+}
+.firstCharttwo-slider{
+    width: 100%;
+    border-radius: 500px;
+    margin-top: 20px;
+    border: 1px solid #000;
+    margin-top: 25px;
+}
+
+.firstCharttwo-content button{
+    background: 0;
+    border: 0;
+    color: #000;
+    height: 100%;
+    padding: 0 10px;
+}
+.active{
+    background: #fff !important;
+    color: purple !important;
+    border-radius: 500px !important;
+}
+#oneDay{
+    margin-right: 2.2%;
+}
+.projects-content{
+    width: 98%;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.projects-content-header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border-bottom: 1px solid #000;
+}
+.projects-content-header h3{
+    font-weight: 700;
+    margin-left: 10px;
+}
+.projects-content-header button{
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    width: 55px;
+    height: 30px;
+    font-size: 10px;
+}
+
+#editCustomer{
+    margin-left: auto;
+}
+.projects-content-head{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #000;
+}
+.projects-content-head h6{
+    width: 80%;
+    font-weight: 700;
+}
+.projects-content-body-item{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #000;
+
+}
+.projects-content-body-item h6{
+    width: 80%;
+        padding-top: 5px ;
+}
+.lastOne{
+    border: none;
 }

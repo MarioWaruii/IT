@@ -166,8 +166,10 @@ nav li{
     border: none;
     border-radius: 5px;
     margin-left: auto;
-    font-size: 15px;
+    font-size: 10px;
     padding: 5px;
+    width: 55px;
+    height: 30px; 
 }
 #addGoal{
     color: #fff;
@@ -175,8 +177,10 @@ nav li{
     border: none;
     border-radius: 5px;
     margin-left: 1%;
-    font-size: 15px;
+    font-size: 10px;
     padding: 5px;
+    width: 80px;
+    height: 30px;
 }
 .content-goals{
     margin-top: 50px;
@@ -236,8 +240,10 @@ nav li{
     border: none;
     border-radius: 5px;
     margin-left: auto;
-    font-size: 15px;
+    font-size: 10px;
     padding: 5px;
+    width: 55px;
+    height: 30px;
 }
 #editBtn{
      margin-left: auto;
@@ -246,8 +252,10 @@ nav li{
     border: none;
     border-radius: 5px;
     margin-left: 1%;
-    font-size: 15px;
+    font-size: 10px;
     padding: 5px;
+    width: 55px;
+    height: 30px;
 }
 
 footer{
