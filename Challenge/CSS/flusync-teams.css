@@ -440,6 +440,10 @@ nav li{
     margin-left: auto;
     margin-right: 10%;
 }
+.team-member-head input{
+    border-radius: 100px;
+    border: 1px solid gray;
+}
 #searchInput{
     width: 20%;
     height: 25%;
@@ -451,8 +455,6 @@ nav li{
     margin-right: 3%;
     height: 50px;
     padding: 5px;
-
-
 }
 
 #filterLinks{
@@ -490,7 +492,7 @@ nav li{
     width: 19%;
     height: 100%;
     background-color: rgba(0,0,0,0.1);
-    padding: 10px;
+    /* padding: 10px; */
     text-align: center;
     margin-left: 3px;
     margin-top: 5px;

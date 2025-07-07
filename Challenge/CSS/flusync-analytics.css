@@ -258,7 +258,7 @@ footer{
     margin-bottom: 100px;
 }
 .firstChartone{
-    background-color: #9595a060;
+    background-color: #fff;
     border-radius: 5px;
     padding: 20px;
     width: 48%;
@@ -277,7 +277,7 @@ canvas{
 }
 .firstChartone-content h5{
     font-weight: 400;
-    color: #fff;
+    color: rgb(99, 98, 98);
     margin-top: 10px !important;
 }
 .firstChartone-content h3{
@@ -308,16 +308,16 @@ canvas{
     padding: 0 10px;
 }
 .active{
-    background: #fff !important;
-    color: purple !important;
+    color: #fff !important;
     border-radius: 500px !important;
+    background-color: #000 !important;
 }
 #oneDay{
     margin-right: 2.2%;
 }
 
 .firstCharttwo{
-    background-color: #9595a060;
+    background-color: #fff;
     border-radius: 5px;
     padding: 20px;
     width: 48%;
@@ -333,7 +333,7 @@ canvas{
 }
 .firstCharttwo-content h5{
     font-weight: 400;
-    color: #fff;
+    color: rgb(99, 98, 98);
     margin-top: 10px;
 }
 .firstCharttwo-content h3{
@@ -363,11 +363,7 @@ canvas{
     height: 100%;
     padding: 0 10px;
 }
-.active{
-    background: #fff !important;
-    color: purple !important;
-    border-radius: 500px !important;
-}
+
 #oneDay{
     margin-right: 2.2%;
 }
